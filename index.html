@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Life Calendar - Visualize your life as weeks">
+    <title>Life Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">Life Calendar</h1>
+            <p class="subtitle">Every square represents one week.</p>
+        </header>
+
+        <!-- Statistics -->
+        <section class="statistics">
+            <div class="stat-card">
+                <div class="stat-label">Age</div>
+                <div class="stat-value" id="age">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Weeks Lived</div>
+                <div class="stat-value" id="weeksLived">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Weeks Remaining</div>
+                <div class="stat-value" id="weeksRemaining">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Life Progress</div>
+                <div class="stat-value" id="lifeProgress">--</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Days to Birthday</div>
+                <div class="stat-value" id="daysToBirthday">--</div>
+            </div>
+        </section>
+
+        <!-- Progress Bar -->
+        <section class="progress-section">
+            <div class="progress-container">
+                <div class="progress-bar-track">
+                    <div class="progress-bar-fill" id="progressBar" style="width: 0%"></div>
+                </div>
+                <div class="progress-text" id="progressText">0%</div>
+            </div>
+        </section>
+
+        <!-- Life Grid -->
+        <section class="grid-section">
+            <div class="grid-container" id="lifeGrid"></div>
+        </section>
+
+        <!-- Tooltip -->
+        <div class="tooltip" id="tooltip"></div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
