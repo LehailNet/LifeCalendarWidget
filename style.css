@@ -247,17 +247,6 @@ body {
     margin: 0.25rem 0;
 }
 
-/* Footer */
-.footer {
-    text-align: center;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    font-size: 0.875rem;
-    animation: fadeIn 1.2s ease-out 0.6s backwards;
-}
-
 /* Animations */
 @keyframes fadeIn {
     from {
