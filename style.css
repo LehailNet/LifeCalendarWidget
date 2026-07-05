@@ -45,20 +45,20 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
 }
 
 /* Header */
 .header {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     animation: fadeIn 0.6s ease-out;
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     background: linear-gradient(135deg, #22c55e 0%, #f59e0b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -66,7 +66,7 @@ body {
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: var(--text-secondary);
     font-weight: 300;
 }
@@ -74,14 +74,14 @@ body {
 /* Statistics */
 .statistics {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
-    margin-bottom: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
 .stat-card {
     background: var(--bg-secondary);
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 12px;
     border: 1px solid var(--border-color);
     text-align: center;
@@ -96,7 +96,7 @@ body {
 }
 
 .stat-label {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     color: var(--text-secondary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -105,14 +105,14 @@ body {
 }
 
 .stat-value {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--text-primary);
 }
 
 /* Progress Section */
 .progress-section {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     animation: fadeIn 0.8s ease-out 0.2s backwards;
 }
 
@@ -139,8 +139,8 @@ body {
 
 .progress-text {
     text-align: center;
-    margin-top: 0.75rem;
-    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--text-primary);
 }
@@ -154,8 +154,8 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(52, 1fr);
-    gap: 4px;
-    padding: 1rem;
+    gap: 2px;
+    padding: 0.5rem;
     background: var(--bg-secondary);
     border-radius: 12px;
     border: 1px solid var(--border-color);
@@ -165,15 +165,15 @@ body {
 
 @media (max-width: 1200px) {
     .grid-container {
-        gap: 3px;
-        padding: 0.75rem;
+        gap: 2px;
+        padding: 0.5rem;
     }
 }
 
 @media (max-width: 768px) {
     .grid-container {
-        gap: 2px;
-        padding: 0.5rem;
+        gap: 1.5px;
+        padding: 0.25rem;
     }
 }
 
@@ -250,8 +250,8 @@ body {
 /* Footer */
 .footer {
     text-align: center;
-    margin-top: 4rem;
-    padding-top: 2rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
     border-top: 1px solid var(--border-color);
     color: var(--text-secondary);
     font-size: 0.875rem;
