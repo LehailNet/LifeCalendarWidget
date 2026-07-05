@@ -126,13 +126,11 @@ const updateStatistics = () => {
     const age = calculateAge();
     const weeksLived = calculateWeeksLived();
     const weeksRemaining = calculateWeeksRemaining();
-    const lifeProgress = calculateLifeProgress();
     const daysToBirthday = calculateDaysToBirthday();
 
     document.getElementById('age').textContent = `${age} years`;
     document.getElementById('weeksLived').textContent = weeksLived.toLocaleString();
     document.getElementById('weeksRemaining').textContent = weeksRemaining.toLocaleString();
-    document.getElementById('lifeProgress').textContent = `${lifeProgress}%`;
     document.getElementById('daysToBirthday').textContent = `${daysToBirthday} days`;
 };
 
