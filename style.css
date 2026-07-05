@@ -51,7 +51,7 @@ body {
 /* Header */
 .header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     animation: fadeIn 0.6s ease-out;
 }
 
@@ -112,7 +112,7 @@ body {
 
 /* Progress Section */
 .progress-section {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     animation: fadeIn 0.8s ease-out 0.2s backwards;
 }
 
